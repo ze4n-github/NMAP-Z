@@ -114,7 +114,7 @@ echo "$normal"
 echo ${aqua}
 read -p "[ + ] Seleccioné una opción > " a
 
-case $a in
+case $in
 1) bash nmap-Z.sh
    ;;
 2) break
